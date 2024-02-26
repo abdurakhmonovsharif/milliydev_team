@@ -6,3 +6,20 @@
 background-image: url(./assets/liner.png);
 background-repeat: no-repeat;
 }
+.mobile_bg_image::after{
+content: "";
+width: 70vw;
+background-image: url(./assets/hero-left.png);
+background-position: right;
+background-size: contain;
+background-repeat: no-repeat;
+height:100%;
+position: absolute;
+top: 0;
+right: 0;
+-webkit-filter: blur(1.2px);
+-moz-filter: blur(1.2px);
+-o-filter: blur(1.2px);
+-ms-filter: blur(1.2px);
+filter: blur(1.2px);
+}
